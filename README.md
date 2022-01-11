@@ -35,5 +35,3 @@ I add event after clicking on element with id equal 'generate' this event excute
 3 - POST Route client side
 
 4 - updateUl
-
-5 - addEventListener
