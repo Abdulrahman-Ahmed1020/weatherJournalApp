@@ -6,7 +6,7 @@ const apiKey = ',&units=imperial&appid=2c177283fb4a824a7069d42135798de9';
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
+let newDate = d.getMonth() + 1 + '.' + d.getDate() + '.' + d.getFullYear();
 let data = {};
 
 // GET route This get for get the temperature from openweathermap api 
